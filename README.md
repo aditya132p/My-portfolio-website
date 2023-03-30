@@ -17,4 +17,15 @@ We welcome any and all contributions! Here are some ways you can get started:
 4. Commit and push
 5. Wait for pull request to be merged
 
+## Prerequisites
+To make any changes to the website, you will need a text editor such as Visual Studio Code, Sublime Text, or Atom.
+
+## Built With
+HTML - The markup language used to structure content on the web.
+CSS - The language used to style the visual presentation of web content.
+JavaScript - A programming language used to create interactive effects within web browsers.
+## Authors
+Aditya Pawar
+ ## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
