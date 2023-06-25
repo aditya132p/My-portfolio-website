@@ -1,6 +1,6 @@
 @media screen and (max-width:858px) {
   #ham {
-    padding: 0 0;
+    padding: 0 20px;
     font-size: 30px;
     display: block;
     cursor: pointer
@@ -14,23 +14,22 @@
   }
   .nav-items.active {
     height: 450px;
-    background-color: rgba(255,255,255,.733);
+    background-color: rgba(255, 255, 255, 0.918);
     z-index: 1;
     opacity: 1;
-    filter: blur(.5px);
-    -webkit-filter: blur(0.5px)
+    
   }
   .nav-items {
     position: absolute;
     width: 100%;
     display: block;
-    top: 80px;
+    top: 63px;
     height: 0;
     left: 0;
     right: 0;
     width: 100vw;
     background-blend-mode: screen;
-    filter: blur(.1px);
+    filter: blur(0px);
     background-color: rgba(255,255,255,.192);
     box-sizing: border-box;
     z-index: 1;
@@ -40,7 +39,7 @@
     -ms-transition: .5s;
     transition: .5s;
     opacity: 0;
-    -webkit-filter: blur(0.1px)
+    
   }
   .nav-items a {
     margin-bottom: 12px
@@ -58,7 +57,7 @@
     color: #000
   }
   .main-text h1 {
-    font-size: 36px;
+    font-size: 30px;
     word-spacing: 0px
   }
   p.Quote {
@@ -88,13 +87,29 @@
   .heading{
     font-size: 33px;
     color: #e9e8ef;
+
 }
+section-head{
+  font-style: normal;
+  color: #ffffff;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 39px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .05em;
+   
+}
+
 }
 @media screen and (max-width:429px) {
   .logo {
     text-decoration: none;
     font-weight: 500;
-    margin: 0 20px;
+   
     animation: logo1 1s ease forwards;
     -webkit-animation: logo1 1s ease forwards
   }
@@ -107,11 +122,11 @@
   }
   .main-text .work {
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
     color: #000
   }
   .main-text h1 {
-    font-size: 30px;
+    font-size: 35px;
     word-spacing: 0px
   }
   p.Quote {
@@ -120,6 +135,7 @@
   .main-img img {
     display: grid;
     width: 300px;
+    
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -144,7 +160,34 @@
   .heading{
     font-size: 27px;
     color: #e9e8ef;
+
 }
+section .title h1 {
+  font-size     : 25px;
+  font-weight   : 600;
+  
+}
+section .title span {
+  font-size     : 25px;
+  font-weight   : 600;
+  position      : relative;
+  padding-bottom: 8px;
+}
+.section-head{
+  font-style: normal;
+  color: #ffffff;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 39px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .05em;
+   
+}
+
 }
 @media (max-width:1190px) {
   section .content {
