@@ -115,6 +115,11 @@ section-head{
   }
   .main-text {
     order: 2
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: center;
   }
   .hero-section {
     display: grid;
@@ -133,7 +138,7 @@ section-head{
     font-size: 12px
   }
    .main-img{
-     width:100vh;
+  
      display:flex;
      justify-content: center;
     align-items: center;
