@@ -114,7 +114,7 @@ section-head{
     -webkit-animation: logo1 1s ease forwards
   }
   .main-text {
-    order: 2
+    order: 2;
     padding: 20px 30px;
     display: flex;
     flex-direction: column;
