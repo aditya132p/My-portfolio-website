@@ -105,7 +105,7 @@ section-head{
 }
 
 }
-@media screen and (max-width:429px) {
+@media screen and (max-width:459px) {
   .logo {
     text-decoration: none;
     font-weight: 500;
@@ -132,6 +132,14 @@ section-head{
   p.Quote {
     font-size: 12px
   }
+   .main-img{
+     width:100vh;
+     display:flex;
+     justify-content: center;
+    align-items: center;
+    align-content: center;
+
+   }
   .main-img img {
     display: grid;
     width: 300px;
